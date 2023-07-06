@@ -10,6 +10,12 @@
 - yt package (optional - can be used to read initial data)
 - palettable package (optional - used for colors in the sample plotting notebook)
 
+e.g. to create a conda env:
+```
+conda create -n energy_transfer -c conda-forge mpi4py-fft matplotlib palettable configobj h5py yt
+conda activate energy_transfer
+```
+
 # General usage
 
 The `run_analysis.py` script is the main file that needs to be run.
